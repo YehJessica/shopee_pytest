@@ -148,7 +148,8 @@ def test_1_CheckUsername():  # ok
     CloseBrower(driver)
 '''
 # Test 2============================================================================
-'''
+
+
 def test_2_CheckSreachword():  # ng
     driver = OpenBrowser()
     time.sleep(12)
@@ -158,7 +159,7 @@ def test_2_CheckSreachword():  # ng
     switchsearchbox(driver)
 #   checkSerchWordKey(driver)
     CloseBrower(driver)
-'''
+
 
 # Test 3============================================================================
 
